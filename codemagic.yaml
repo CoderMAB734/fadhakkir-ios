@@ -15,7 +15,7 @@ workflows:
           npm ci
       - name: Sync Capacitor
         script: |
-          npx cap sync ios
+          npx cap sync
       - name: Build iOS project
         script: |
           cd ios
