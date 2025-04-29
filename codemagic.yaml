@@ -8,7 +8,7 @@ workflows:
       node: 18.16.0
       cocoapods: default
       vars:
-        BUNDLE_ID: com.yourcompany.yourapp
+        BUNDLE_ID: com.fadhakkir.app
     scripts:
       - name: Install dependencies
         script: |
