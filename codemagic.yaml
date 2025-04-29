@@ -5,14 +5,11 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       xcode: latest
-      node: 18.16.0
+      node: latest
       cocoapods: default
       vars:
         BUNDLE_ID: com.fadhakkir.app
     scripts:
-      - name: Install dependencies
-        script: |
-          npm ci
       - name: Sync Capacitor
         script: |
           npx cap sync
