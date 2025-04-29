@@ -10,11 +10,11 @@ workflows:
       vars:
         BUNDLE_ID: com.fadhakkir.app
     scripts:
-      - name: Sync Capacitor
+      - name: Open iOS project
         script: |
-          npx cap sync
+          npx cap open ios 
       - name: Build iOS project
         script: |
-          npx cap open ios && npx cap build ios
+          npx cap build ios
     artifacts:
       - build/ipa/*.ipa
