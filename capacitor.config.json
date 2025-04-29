@@ -1,0 +1,14 @@
+{
+  "appId": "com.fadhakkir.app",
+  "appName": "Fadhakkir",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "launchFadeOutDuration": 0
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  }
+}

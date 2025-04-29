@@ -1,0 +1,23 @@
+{
+  "name": "fadhakkir-ios-latest",
+  "version": "1.0.0",
+  "description": "This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app), and comes with a very minimal shell for building an app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/geolocation": "^7.1.1",
+    "@capacitor/haptics": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "@capacitor/splash-screen": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}
