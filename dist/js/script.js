@@ -432,7 +432,7 @@ const main_code = (latitude, longitude) => {
 
     if (!get_cookie('city') || change) {
       // Make a request to a Geocoding API (e.g. Google Maps Geocoding API)
-      const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyCQsFLtbalIk0dwOCdlnz4y4UL9Fs1IKY8`;
+      const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=APIEKY`;
 
       fetch(url)
         .then((response) => response.json())
